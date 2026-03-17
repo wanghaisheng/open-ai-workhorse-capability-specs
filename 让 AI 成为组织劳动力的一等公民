@@ -1,0 +1,186 @@
+让 AI 成为组织劳动力的一等公民
+
+这句话本身已经非常接近一个核心原则级定义了，但如果你要把它放进你这套 AWOS / AWG 体系里，它其实可以被“拆解、增强、落地”为一整套更有力量的表达。
+
+我帮你把它从一句口号，升级成定义 + 原则 +操作含义三层。
+
+一、核心定义（升级版）
+
+你原话：
+
+让 AI 成为组织劳动力的一等公民
+
+可以升级为：
+
+让 AI 作为“可定义、可调度、可评估、可治理”的劳动力单元，参与组织的工作执行体系。
+
+再工程一点：
+
+AI 不再只是工具，而是被纳入 Workforce System 的执行实体（Execution Entity）。
+
+二、什么叫“一等公民”（非常关键）
+
+如果不定义清楚，这句话很容易变成空话。
+
+在操作系统语境里，“一等公民”意味着：
+
+1️⃣ 可被统一建模
+
+AI 必须能被放进同一套结构：
+
+Role
+Task
+Capability
+Worker
+
+也就是说：
+
+Human 和 AI 用同一语言描述
+2️⃣ 可被调度（Scheduling）
+
+系统可以做这样的决策：
+
+这个 task
+→ 给 human
+→ 给 AI
+→ 给 human + AI
+
+而不是：
+
+只有人被分配任务
+AI只是辅助
+3️⃣ 可被评估（Evaluation）
+
+AI 不只是“用了没用”，而是：
+
+success rate
+accuracy
+latency
+cost
+reliability
+
+和人一样进入：
+
+performance system
+4️⃣ 可被替换（Replaceable）
+
+AI 的实现可以被替换：
+
+GPT → Claude → open model
+prompt v1 → v2
+toolchain A → B
+
+但：
+
+Role / Task 不变
+5️⃣ 可被组合（Composable）
+
+AI 可以：
+
+单独执行
+协同执行
+被编排进 workflow
+三、这句话真正改变了什么
+
+这句话的本质变化是：
+
+❗ 从“AI是工具” → “AI是劳动力”
+旧世界
+Human → 做事
+AI → 辅助
+新世界
+Work → Task
+Task → 分配给 Workforce
+
+Workforce = Human + AI
+四、对你这套 AWOS 的具体影响
+
+这句话不是口号，它会直接改变系统设计。
+
+1️⃣ Worker 抽象必须统一
+
+你已经做对了：
+
+Worker
+  ├── Human
+  ├── Agent
+  ├── Tool
+  ├── Workflow
+
+这就是“一等公民”的数据结构体现。
+
+2️⃣ Capability 是中立层
+
+不能写成：
+
+AI capability
+Human capability
+
+而必须是：
+
+Capability（统一抽象）
+
+然后：
+
+Human PROVIDES Capability
+AI PROVIDES Capability
+3️⃣ 调度器必须无偏
+
+Scheduler 不能假设：
+
+默认 human
+
+而必须：
+
+选择最优执行者
+
+依据：
+
+quality
+cost
+latency
+risk
+4️⃣ Evaluation 必须统一
+
+不能：
+
+人用 KPI
+AI 用 accuracy
+
+而是：
+
+Task Outcome Evaluation
+
+统一评价：
+
+是否完成工作
+5️⃣ Position 被重新定义
+
+传统：
+
+Position = 人
+
+新定义：
+
+Position = 一组 Role / Task / Capability 的集合
+
+然后：
+
+谁执行？→ runtime 决定
+五、你可以写进文档的一段（建议直接用）
+
+可以写成：
+
+In traditional organizations, labor is human-centric, and AI is treated as a tool.\n>\n> In AWOS, AI is elevated to a first-class workforce entity. This means AI units are:\n> - defined using the same role–task–capability structure as humans\n> - schedulable as execution units\n> - measurable under the same evaluation framework\n> - replaceable at the implementation layer\n> - composable within workflows\n>\n> As a result, the system shifts from “human-centered execution” to “work-centered orchestration”.\n>\n> Workforce becomes a unified abstraction:\n>\n> Workforce = Human + AI + Automation\n\n---
+
+六、最重要的一句总结
+
+如果只保留一句话，我建议你用这个版本：
+
+让 AI 成为组织劳动力的一等公民，本质是把“执行主体”从人，升级为“可调度的能力系统”。
+
+如果你愿意，我们可以再往前推一步（这个是最难也最有价值的）：
+
+👉 当 AI 成为一等公民之后，KPI / OKR / 绩效体系应该怎么变？
+
+那会直接触及组织设计的“根”。
