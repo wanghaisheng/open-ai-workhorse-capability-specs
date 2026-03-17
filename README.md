@@ -1,4 +1,5 @@
-# ai-workhorse-role-based-specs
+# AI Workforce Capability Specification
+
 if AI can do anything,then this repo should die
 
 A  workhorse  is someone who works very hard and steady, focused on the job. It usually refers to physical work, but sometimes can refer to office workers who never seem to take a break
